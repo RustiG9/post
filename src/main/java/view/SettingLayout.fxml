@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="429.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="41.0" layoutY="27.0" prefHeight="258.0" prefWidth="411.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="76.0" minWidth="10.0" prefWidth="74.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="145.0" minWidth="10.0" prefWidth="103.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="24.0" minHeight="7.0" prefHeight="12.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="31.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="29.0" minHeight="8.0" prefHeight="16.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="66.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="49.0" minHeight="8.0" prefHeight="27.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="45.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="43.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label prefHeight="17.0" prefWidth="233.0" text="координаты отправления" GridPane.rowIndex="3" />
+            <Label text="координаты получателя" GridPane.rowIndex="1" />
+            <Label text="размер текста" GridPane.rowIndex="4" />
+            <Label text="длина текста в строке" GridPane.rowIndex="5" />
+            <Label text="ширина поля индекса" GridPane.rowIndex="6" />
+            <Label text="отступ линни от текста" GridPane.rowIndex="7" />
+            <Label text="межстрочный интервал" GridPane.rowIndex="9" />
+            <Label text="размер листа" GridPane.rowIndex="11" />
+            <ComboBox prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <TextField prefHeight="25.0" prefWidth="27.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField prefHeight="25.0" prefWidth="27.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField prefHeight="25.0" prefWidth="27.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField prefHeight="25.0" prefWidth="27.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <TextField prefHeight="25.0" prefWidth="13.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField prefHeight="25.0" prefWidth="27.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextField prefHeight="25.0" prefWidth="27.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Label text="x" GridPane.columnIndex="1" />
+            <Label text="y" GridPane.columnIndex="2" />
+            <Label text="y" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label text="x" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField layoutX="244.0" layoutY="167.0" prefHeight="25.0" prefWidth="27.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField layoutX="244.0" layoutY="196.0" prefHeight="25.0" prefWidth="27.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Label text="толщина линии" GridPane.rowIndex="8" />
+         </children>
+      </GridPane>
+      <Button layoutX="395.0" layoutY="377.0" mnemonicParsing="false" text="Закрыть" />
+      <Button layoutX="313.0" layoutY="377.0" mnemonicParsing="false" text="Сохранить" />
+      <Button layoutX="204.0" layoutY="377.0" mnemonicParsing="false" text="По умолчанию" />
+   </children>
+</AnchorPane>

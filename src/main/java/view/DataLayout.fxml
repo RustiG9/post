@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane hbarPolicy="ALWAYS" hmin="100.0" hvalue="1.0" vbarPolicy="ALWAYS" vmin="100.0" vvalue="1.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.DataLayoutController">
+   <content>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="fromField" layoutX="76.0" layoutY="65.0" onInputMethodTextChanged="#textFieldTyped" prefHeight="25.0" prefWidth="503.0" promptText="подсказка" text="Касмасова Рустама Алеевича" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="11.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <Label layoutX="32.0" layoutY="69.0" text="От Кого" />
+            <TextField fx:id="fromFieldAddress" layoutX="77.0" layoutY="100.0" prefHeight="25.0" prefWidth="354.0" text="Санкт-Петербург, г. Красное село, пр. Ленина, д. 102, к. 1, кв. 5" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="166.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </TextField>
+            <Label layoutX="32.0" layoutY="104.0" text="Откуда" />
+            <TextField fx:id="fromFieldIndex" layoutX="484.0" layoutY="100.0" prefHeight="25.0" prefWidth="99.0" text="198320" AnchorPane.rightAnchor="11.0" />
+            <Label layoutX="447.0" layoutY="104.0" text="Индекс" AnchorPane.rightAnchor="115.0" />
+            <TextField fx:id="toField" layoutX="80.0" layoutY="149.0" prefHeight="25.0" prefWidth="503.0" text="ООО &quot;Миграционные Технологии&quot;" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="11.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <Label layoutX="32.0" layoutY="153.0" text="Кому" />
+            <TextField fx:id="toFieldAddress" layoutX="80.0" layoutY="184.0" prefHeight="25.0" prefWidth="353.0" text="Санкт-Петербург, Синопская наб., д. 64, лит. А, оф 15" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="166.0" />
+            <Label layoutX="32.0" layoutY="188.0" text="Куда" />
+            <TextField fx:id="toFieldIndex" layoutX="484.0" layoutY="184.0" prefHeight="25.0" prefWidth="99.0" text="191124" AnchorPane.rightAnchor="11.0" />
+            <Label layoutX="444.0" layoutY="188.0" text="Индекс" AnchorPane.rightAnchor="115.0" />
+            <CheckBox layoutX="35.0" layoutY="232.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="64.0" text="опись" />
+            <Button layoutX="520.0" layoutY="353.0" mnemonicParsing="false" onAction="#textFieldTyped" text="Button" AnchorPane.bottomAnchor="22.0" AnchorPane.rightAnchor="28.0" />
+            <Label layoutX="189.0" text="Astreya почта">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
